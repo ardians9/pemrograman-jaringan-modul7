@@ -1,0 +1,36 @@
+============================================================
+LAB 07 - MULTI-DEVICE SSH AUTOMATION REPORT
+Execution Time: 2026-06-25 08:24:28
+============================================================
+
+SSH to: 192.168.2.1 (MikroTik Router) | Command: ip address print
+Flags: D - DYNAMIC
+Columns: ADDRESS, NETWORK, INTERFACE, VRF
+#   ADDRESS          NETWORK      INTERFACE  VRF 
+0   192.168.2.1/24   192.168.2.0  ether1     main
+
+--------------------------------------------------
+
+SSH to: 192.168.3.11 (MikroTik Router) | Command: ip address print
+Flags: D - DYNAMIC
+Columns: ADDRESS, NETWORK, INTERFACE, VRF
+#   ADDRESS          NETWORK      INTERFACE  VRF 
+1   192.168.3.11/24  192.168.3.0  ether1     main
+
+--------------------------------------------------
+
+SSH to: 192.168.4.11 (MikroTik Router) | Command: ip address print
+Flags: D - DYNAMIC
+Columns: ADDRESS, NETWORK, INTERFACE, VRF
+#   ADDRESS          NETWORK      INTERFACE  VRF 
+2   192.168.4.11/24  192.168.4.0  ether1     main
+
+--------------------------------------------------
+
+SSH to: 192.168.5.11 (MikroTik Router) | Command: ip address print
+Flags: D - DYNAMIC
+Columns: ADDRESS, NETWORK, INTERFACE, VRF
+#   ADDRESS          NETWORK      INTERFACE  VRF 
+3   192.168.5.11/24  192.168.5.0  ether1     main
+
+--------------------------------------------------
